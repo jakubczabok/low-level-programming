@@ -1,11 +1,11 @@
-// This C code provides interface for asembly program which calculates arctan(x) 
+// This C code provides interface for assembly program which calculates arctan(x) 
 
-// Extention needed to link asembly code with this 
+// Extention needed to link assembly code with this 
 #include <stdio.h>
 
-// Declaration of function from asembly file
+// Declaration of function from assembly file
 extern float _arctan(float a); 
-// Declaration for local function
+// Function prototype
 float arctan(float a);
 void flush(void);
 
